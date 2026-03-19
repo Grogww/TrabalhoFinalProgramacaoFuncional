@@ -1,0 +1,44 @@
+===== Anotações Projeto =====
+
+
+-> Trabalhar apenas com programação Funcional
+-> Manter maior legibilidade possível
+
+-----------------------------
+Notas para README
+
+-> Cada objeto possui os seguintes campos, que podem ser agrupados e categorizados
+    |-> ID (identificador unico)
+    |-> Nome
+    |-> valor
+    |-> categoria
+    |-> DataVenda
+    |-> Vendedor
+
+-> Com esses campos podemos conseguir alguns dados valiosos sobre o modelo de negócios, como:
+    |-> Por Produto - Maior quantidade de vendas e maior valor vendido
+    |-> Por Categoria - Identificar quais categorias possuem maior rendimento ou maior movimentação
+    |-> Por Vendedor - Identificar as vendas, valor total e quantidade de cada vendedor
+    |-> Por Periodo - Agrupamento por periodo de datas
+    |-> Ticket médio - por Vendedor
+
+
+-> (Como provaria que é pura?)
+-> Ao passar uma lista vazia como parametro, por exemplo, o resultado é apenas vazio, pois nenhum objeto foi retornado do devido filtro
+
+
+=====================================
+
+Implementar Fase 1
+
+-> filtrarPorValorMinimo(min) [ retorna uma função que, recebe uma lista e filtra ]
+-> filtrarPorCategoria(categoria)  [ retorna uma função que, recebe uma lista e filtra ]
+
+-> resumir(lista) [ Retorna apenas {produto, valor, categoria} de cada item ]
+-> totalPorCategoria(lista) [ retorna {tech: 4200, moveis: 850, ...} valor total por cat ]
+-> ordenarPorValor(lista) [ retorna nova lista ordenada, sem mutar a original ]
+
+// 2 chamadas de testes por função (testar forma isolada)
+// Usar console.assert
+// Lista vazia - Lista com 1 item - Lista com dados inesperados
+// Verificar alterações no array original

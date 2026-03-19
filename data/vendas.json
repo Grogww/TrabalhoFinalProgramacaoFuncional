@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "produto": "Notebook",
+    "valor": 3200,
+    "categoria": "tech",
+    "data": "2024-03-15",
+    "vendedor": "Ana"
+  },
+  {
+    "id": 2,
+    "produto": "Mouse Gamer",
+    "valor": 150,
+    "categoria": "periféricos",
+    "data": "2024-03-16",
+    "vendedor": "Bruno"
+  },
+  {
+    "id": 3,
+    "produto": "Teclado Mecânico",
+    "valor": 450,
+    "categoria": "periféricos",
+    "data": "2024-03-17",
+    "vendedor": "Carlos"
+  },
+  {
+    "id": 4,
+    "produto": "Monitor 27\"",
+    "valor": 1200,
+    "categoria": "monitores",
+    "data": "2024-03-18",
+    "vendedor": "Diana"
+  },
+  {
+    "id": 5,
+    "produto": "Webcam HD",
+    "valor": 280,
+    "categoria": "periféricos",
+    "data": "2024-03-19",
+    "vendedor": "Eduardo"
+  },
+  {
+    "id": 6,
+    "produto": "Headset Bluetooth",
+    "valor": 350,
+    "categoria": "áudio",
+    "data": "2024-03-20",
+    "vendedor": "Ana"
+  },
+  {
+    "id": 7,
+    "produto": "SSD 1TB",
+    "valor": 450,
+    "categoria": "armazenamento",
+    "data": "2024-03-21",
+    "vendedor": "Bruno"
+  },
+  {
+    "id": 8,
+    "produto": "Memória RAM 16GB",
+    "valor": 280,
+    "categoria": "memória",
+    "data": "2024-03-22",
+    "vendedor": "Carlos"
+  },
+  {
+    "id": 9,
+    "produto": "Processador i7",
+    "valor": 1800,
+    "categoria": "processadores",
+    "data": "2024-03-23",
+    "vendedor": "Diana"
+  },
+  {
+    "id": 10,
+    "produto": "Placa de Vídeo RTX 3060",
+    "valor": 2100,
+    "categoria": "vídeo",
+    "data": "2024-03-24",
+    "vendedor": "Eduardo"
+  },
+  {
+    "id": 11,
+    "produto": "Mousepad Grande",
+    "valor": 120,
+    "categoria": "periféricos",
+    "data": "2024-03-25",
+    "vendedor": "Ana"
+  },
+  {
+    "id": 12,
+    "produto": "Hub USB",
+    "valor": 180,
+    "categoria": "acessórios",
+    "data": "2024-03-26",
+    "vendedor": "Bruno"
+  },
+  {
+    "id": 13,
+    "produto": "Cabo HDMI",
+    "valor": 45,
+    "categoria": "cabos",
+    "data": "2024-03-27",
+    "vendedor": "Carlos"
+  },
+  {
+    "id": 14,
+    "produto": "Adaptador USB-C",
+    "valor": 85,
+    "categoria": "acessórios",
+    "data": "2024-03-28",
+    "vendedor": "Diana"
+  },
+  {
+    "id": 15,
+    "produto": "Laptop Ultrabook",
+    "valor": 4500,
+    "categoria": "tech",
+    "data": "2024-03-29",
+    "vendedor": "Eduardo"
+  },
+  {
+    "id": 16,
+    "produto": "Tablet 10\"",
+    "valor": 1800,
+    "categoria": "tablets",
+    "data": "2024-03-30",
+    "vendedor": "Ana"
+  },
+  {
+    "id": 17,
+    "produto": "Smartphone Android",
+    "valor": 2200,
+    "categoria": "smartphones",
+    "data": "2024-04-01",
+    "vendedor": "Bruno"
+  },
+  {
+    "id": 18,
+    "produto": "iPhone 14",
+    "valor": 3800,
+    "categoria": "smartphones",
+    "data": "2024-04-02",
+    "vendedor": "Carlos"
+  },
+  {
+    "id": 19,
+    "produto": "Smartwatch",
+    "valor": 890,
+    "categoria": "wearables",
+    "data": "2024-04-03",
+    "vendedor": "Diana"
+  },
+  {
+    "id": 20,
+    "produto": "Fone Bluetooth",
+    "valor": 250,
+    "categoria": "áudio",
+    "data": "2024-04-04",
+    "vendedor": "Eduardo"
+  },
+  {
+    "id": 21,
+    "produto": "Caixa JBL Portátil",
+    "valor": 420,
+    "categoria": "áudio",
+    "data": "2024-04-05",
+    "vendedor": "Ana"
+  },
+  {
+    "id": 22,
+    "produto": "Microfone Condensador",
+    "valor": 680,
+    "categoria": "áudio",
+    "data": "2024-04-06",
+    "vendedor": "Bruno"
+  },
+  {
+    "id": 23,
+    "produto": "Estabilizador de Câmera",
+    "valor": 950,
+    "categoria": "fotografia",
+    "data": "2024-04-07",
+    "vendedor": "Carlos"
+  },
+  {
+    "id": 24,
+    "produto": "Câmera Mirrorless",
+    "valor": 3500,
+    "categoria": "fotografia",
+    "data": "2024-04-08",
+    "vendedor": "Diana"
+  },
+  {
+    "id": 25,
+    "produto": "Lente 50mm",
+    "valor": 1200,
+    "categoria": "fotografia",
+    "data": "2024-04-09",
+    "vendedor": "Eduardo"
+  },
+  {
+    "id": 26,
+    "produto": "Tripé Profissional",
+    "valor": 380,
+    "categoria": "fotografia",
+    "data": "2024-04-10",
+    "vendedor": "Ana"
+  },
+  {
+    "id": 27,
+    "produto": "Carregador Rápido",
+    "valor": 120,
+    "categoria": "acessórios",
+    "data": "2024-04-11",
+    "vendedor": "Bruno"
+  },
+  {
+    "id": 28,
+    "produto": "Bateria Externa 20000mAh",
+    "valor": 180,
+    "categoria": "acessórios",
+    "data": "2024-04-12",
+    "vendedor": "Carlos"
+  },
+  {
+    "id": 29,
+    "produto": "Cabo Lightning",
+    "valor": 65,
+    "categoria": "cabos",
+    "data": "2024-04-13",
+    "vendedor": "Diana"
+  },
+  {
+    "id": 30,
+    "produto": "Cabo USB-C",
+    "valor": 55,
+    "categoria": "cabos",
+    "data": "2024-04-14",
+    "vendedor": "Eduardo"
+  },
+  {
+    "id": 31,
+    "produto": "Router WiFi 6",
+    "valor": 550,
+    "categoria": "rede",
+    "data": "2024-04-15",
+    "vendedor": "Ana"
+  },
+  {
+    "id": 32,
+    "produto": "Modem Gigabit",
+    "valor": 420,
+    "categoria": "rede",
+    "data": "2024-04-16",
+    "vendedor": "Bruno"
+  },
+  {
+    "id": 33,
+    "produto": "Repetidor WiFi",
+    "valor": 280,
+    "categoria": "rede",
+    "data": "2024-04-17",
+    "vendedor": "Carlos"
+  },
+  {
+    "id": 34,
+    "produto": "NAS 4TB",
+    "valor": 1500,
+    "categoria": "armazenamento",
+    "data": "2024-04-18",
+    "vendedor": "Diana"
+  },
+  {
+    "id": 35,
+    "produto": "HD Externo 2TB",
+    "valor": 380,
+    "categoria": "armazenamento",
+    "data": "2024-04-19",
+    "vendedor": "Eduardo"
+  },
+  {
+    "id": 36,
+    "produto": "Pendrive 64GB",
+    "valor": 55,
+    "categoria": "armazenamento",
+    "data": "2024-04-20",
+    "vendedor": "Ana"
+  },
+  {
+    "id": 37,
+    "produto": "Cartão SD 128GB",
+    "valor": 85,
+    "categoria": "armazenamento",
+    "data": "2024-04-21",
+    "vendedor": "Bruno"
+  },
+  {
+    "id": 38,
+    "produto": "Monitor Ultrawide",
+    "valor": 2200,
+    "categoria": "monitores",
+    "data": "2024-04-22",
+    "vendedor": "Carlos"
+  },
+  {
+    "id": 39,
+    "produto": "Monitor Curvo 32\"",
+    "valor": 1800,
+    "categoria": "monitores",
+    "data": "2024-04-23",
+    "vendedor": "Diana"
+  },
+  {
+    "id": 40,
+    "produto": "Monitor OLED",
+    "valor": 2800,
+    "categoria": "monitores",
+    "data": "2024-04-24",
+    "vendedor": "Eduardo"
+  },
+  {
+    "id": 41,
+    "produto": "Suporte para Monitor",
+    "valor": 150,
+    "categoria": "acessórios",
+    "data": "2024-04-25",
+    "vendedor": "Ana"
+  },
+  {
+    "id": 42,
+    "produto": "Organizador de Cabos",
+    "valor": 45,
+    "categoria": "acessórios",
+    "data": "2024-04-26",
+    "vendedor": "Bruno"
+  },
+  {
+    "id": 43,
+    "produto": "Umidificador USB",
+    "valor": 75,
+    "categoria": "acessórios",
+    "data": "2024-04-27",
+    "vendedor": "Carlos"
+  },
+  {
+    "id": 44,
+    "produto": "Luminária LED",
+    "valor": 120,
+    "categoria": "iluminação",
+    "data": "2024-04-28",
+    "vendedor": "Diana"
+  },
+  {
+    "id": 45,
+    "produto": "Ventilador de Desk",
+    "valor": 95,
+    "categoria": "acessórios",
+    "data": "2024-04-29",
+    "vendedor": "Eduardo"
+  },
+  {
+    "id": 46,
+    "produto": "Almofada para Pescoço",
+    "valor": 85,
+    "categoria": "ergonomia",
+    "data": "2024-05-01",
+    "vendedor": "Ana"
+  },
+  {
+    "id": 47,
+    "produto": "Repousa-pés Ergonômico",
+    "valor": 180,
+    "categoria": "ergonomia",
+    "data": "2024-05-02",
+    "vendedor": "Bruno"
+  },
+  {
+    "id": 48,
+    "produto": "Cadeira Gamer",
+    "valor": 1200,
+    "categoria": "móveis",
+    "data": "2024-05-03",
+    "vendedor": "Carlos"
+  },
+  {
+    "id": 49,
+    "produto": "Mesa Desk Ajustável",
+    "valor": 1500,
+    "categoria": "móveis",
+    "data": "2024-05-04",
+    "vendedor": "Diana"
+  },
+  {
+    "id": 50,
+    "produto": "Prateleira Flutuante",
+    "valor": 250,
+    "categoria": "móveis",
+    "data": "2024-05-05",
+    "vendedor": "Eduardo"
+  }
+]
