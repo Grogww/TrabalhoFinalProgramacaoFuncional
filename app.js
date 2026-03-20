@@ -142,8 +142,8 @@ console.assert(
 /* ======================== Estruturas Pipeline ================================== */
 
 const pipe = (...fns) =>
-    (vendas) =>
-        fns.reduce((acc, fn) => fn(resultado), valor);
+    (valor) =>
+        fns.reduce((acc, fn) => fn(acc), valor);
 
 
 /* 
@@ -153,10 +153,26 @@ Insights
     |-> Adição de nova função para tratar
 */
 
+// Pipeline 1
+const faturamentoCategoriasPremium = pipe(
+    filtrarPorValorMinimo(750),
+    resumirVendas,
+    totalPorCategoria
+);
 
 
+// Pipeline 2
+const totalPorVendedor = (vendas) =>
+    vendas.reduce((acc, venda) => ({
+        ...acc,
+        [venda.vendedor]: (acc[venda.vendedor] || 0) + venda.valor
+    }), {});
+
+const receitaPorVendedorEmTech = pipe(
+    filtrarPorCategoria('tech'),
+    totalPorVendedor,
+    ordenarPorValor
+);
 
 
-
-
-
+//COMO lidar com dados inesperados?
