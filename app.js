@@ -3,8 +3,6 @@ const fs = require("fs");
 const raw = fs.readFileSync("data/vendas.json", "utf-8");
 const vendas = JSON.parse(raw);
 
-
-
 /* Função 1 - Filtrar por Valor Minimo */
 
 const filtrarPorValorMinimo = (valorMinimo) => (vendas) =>
@@ -32,7 +30,7 @@ const totalPorCategoria = (vendas) =>
     vendas.reduce((acc, venda) => ({
         ...acc,
         [venda.categoria]: (acc[venda.categoria] || 0) + venda.valor
-    }), {});
+    }), []);
 
 
 /* Função 5 - ordernar Por Valor [Sem mutar]*/
@@ -146,13 +144,6 @@ const pipe = (...fns) =>
         fns.reduce((acc, fn) => fn(acc), valor);
 
 
-/* 
-Insights 
- - Faturamento por categoria (alto valor)
- - Rank vendedores por receita
-    |-> Adição de nova função para tratar
-*/
-
 // Pipeline 1
 const faturamentoCategoriasPremium = pipe(
     filtrarPorValorMinimo(750),
@@ -160,19 +151,25 @@ const faturamentoCategoriasPremium = pipe(
     totalPorCategoria
 );
 
+console.log(faturamentoCategoriasPremium(vendas))
+
 
 // Pipeline 2
 const totalPorVendedor = (vendas) =>
     vendas.reduce((acc, venda) => ({
         ...acc,
         [venda.vendedor]: (acc[venda.vendedor] || 0) + venda.valor
-    }), {});
+    }), []);
+
+const ordenarAgregadoPorValor = (vendasAgregado) =>
+    Object.entries(vendasAgregado)
+        .map(([nome, total]) => ({ nome, total }))
+        .toSorted((a, b) => b.total - a.total);
 
 const receitaPorVendedorEmTech = pipe(
     filtrarPorCategoria('tech'),
     totalPorVendedor,
-    ordenarPorValor
+    ordenarAgregadoPorValor
 );
 
-
-//COMO lidar com dados inesperados?
+console.log(receitaPorVendedorEmTech(vendas))
